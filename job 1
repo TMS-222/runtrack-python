@@ -1,0 +1,9 @@
+valeur1= int(input("Saisir un entier positif: "))
+valeur2= int(input("Saisir un entier positif: "))
+
+if valeur1 == valeur2:
+    print ("la valeur 1 est égal à la valeur 2")
+
+
+else:
+    print ("les 2 valeurs ne sont pas égales")
