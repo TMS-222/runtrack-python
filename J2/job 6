@@ -1,0 +1,10 @@
+n= int(input("Saisir un entier positif: "))
+
+while n <=0:
+    n=int(input("erreur ! saisir un entier positif : "))
+
+for table in range (1, n+1):
+        print ("table de", table)
+        for multiplicateur in range (7, 8):
+            resultat= n * multiplicateur
+            print(table, "x", multiplicateur, "=", resultat)
