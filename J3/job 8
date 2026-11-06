@@ -1,0 +1,19 @@
+a= float(input("a : "))
+b= float(input("b : "))
+c= float(input("c : "))
+
+rectangle= a**2 + b**2 == c**2 or a**2 + c**2 ==b**2 or b**2 + c**2 == a**2
+isocele= a == b or a == c or b == c
+
+if a+b <=c or a+c<=b or b+c <=a:
+    print("impossible de construire un triangle")
+elif a==b==c:
+    print("equilatéral")
+elif rectangle and isocele:
+    print("rectangle isocele")
+elif rectangle:
+    print("rectangle")
+elif isocele:
+    print("isocele")
+else:
+    print("quelconque")
