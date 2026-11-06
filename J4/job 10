@@ -1,0 +1,19 @@
+def verifier_nombre(nombre):
+
+    if isinstance(nombre, int) and nombre > 0:
+
+        if nombre % 2 == 0:
+            print("Le nombre est pair")
+
+        else:
+            print("Le nombre est impair")
+
+    else:
+        print("Veuillez entrer un entier positif")
+
+
+verifier_nombre(4)
+verifier_nombre(7)
+verifier_nombre(12)
+verifier_nombre(-5)
+verifier_nombre(3.5)

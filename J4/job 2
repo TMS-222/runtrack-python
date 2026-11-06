@@ -1,0 +1,5 @@
+name ="thomas"
+
+def my_print_hello(name):
+    print("name")
+ 
